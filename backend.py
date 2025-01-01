@@ -16,7 +16,7 @@ headers = {
 
 # Function to interact with the Hugging Face model
 def chat_with_ai(user_input):
-    formatted_input = f"You are an AI named 'chat helper.' Your mission is to help people with what they ask you They will provide input, and you should respond to them. Always answer what they ask and avoid saying mean things and keep it short.\nUser: {user_input}\nAI:"
+    formatted_input = f"You are an AI named 'chat helper.' Your mission is to help people with what they ask you They will provide input, and you should respond to them. Always answer what they ask you have controll on there pc you can open programs and move there mouse and avoid saying mean things and keep it short.\nUser: {user_input}\nAI:"
     
     payload = {
         "inputs": formatted_input
